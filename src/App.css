@@ -1,0 +1,10 @@
+main {
+  display: relative;
+  height: 600px;
+  width: 550px; 
+  margin: 20px auto;
+  font-family: Karla, sans-serif;
+  background-color: #F5F7FB;
+  border-radius: 15px;
+  overflow: hidden;
+}

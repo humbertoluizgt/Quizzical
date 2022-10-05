@@ -1,0 +1,50 @@
+.home--section {  
+  height: 100%;
+  width: 100%;
+  background: 
+    url("../img/blobs.svg") 0 100% no-repeat,
+    url("../img/blob 5.svg") 140% -40% no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home--title {
+  font-size: 2rem;
+  color: rgb(41, 50, 100);
+  margin-bottom: 7px;
+}
+
+.home--description {
+  font-family: Inter, sans-serif;
+  color: rgb(41, 50, 100);
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.home--button {
+  width: 180px;
+  height: 52px;
+  border-radius: 15px;
+  border: none;
+  font-family: Inter, sans-serif;
+  color: #F5F7FB;
+  background-color: #4D5B9E;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.home--button:hover {
+  opacity: 0.8;
+}
+
+.home--button:active {
+  opacity: 0.5;
+}
+
+.home--img1 {
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
